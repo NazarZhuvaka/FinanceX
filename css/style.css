@@ -168,6 +168,11 @@ a {
   color: var(--c-white);
 }
 
+.wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
 .btn {
   display: flex;
   cursor: pointer;
@@ -221,7 +226,7 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 1480px;
-  padding: 150px 0 0 140px;
+  padding: 147px 0 130px 120px;
   margin-inline: auto;
 }
 .welcome-section__text {
@@ -265,4 +270,18 @@ a {
   line-height: 24px;
   text-align: left;
   gap: 21px;
+}
+.companies {
+  background: var(--c-primary);
+}
+.companies-container {
+  max-width: 1320px;
+  padding: 0 60px;
+  margin-inline: auto;
+}
+.companies__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */

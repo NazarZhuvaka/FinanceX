@@ -16,6 +16,11 @@ a {
   color: var(--c-white);
 }
 
+.wrapper{
+	max-width: 1440px;
+    margin-inline: auto;
+}
+
 // .container {
 // 	max-width: calc(1200px + 120px);
 // 	padding: 0 60px;

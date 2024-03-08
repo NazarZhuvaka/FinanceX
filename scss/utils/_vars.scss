@@ -1,0 +1,28 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-small: 380px;
+
+$c-primary: #CBFC01;
+
+:root {
+	--ff: 'Montserrat', sans-serif;
+	--ff-second: 'Rubik', sans-serif;
+	--transition: .2s all ease-in-out;
+
+	--c-white: #fff;
+	--c-desc: #FFFFFFB3;
+	--c-dark1: #151515; 
+	--c-primary: #CBFC01;
+
+
+	--font-h2-reg: 500 20px/45px var(--ff);
+}
+
+@media screen {
+	:root {
+		--font-h2-reg: 500 16px/45px var(--ff);
+	}
+}

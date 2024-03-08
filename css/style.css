@@ -1,0 +1,268 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  outline: 0;
+  word-break: break-word;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+body {
+  margin: 0;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+[hidden] {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ff: "Montserrat", sans-serif;
+  --ff-second: "Rubik", sans-serif;
+  --transition: .2s all ease-in-out;
+  --c-white: #fff;
+  --c-desc: #FFFFFFB3;
+  --c-dark1: #151515;
+  --c-primary: #CBFC01;
+  --font-h2-reg: 500 20px/45px var(--ff);
+}
+
+@media screen {
+  :root {
+    --font-h2-reg: 500 16px/45px var(--ff);
+  }
+}
+body {
+  font-family: var(--ff);
+  background: var(--c-dark1);
+  color: var(--c-white);
+}
+
+html._overflow {
+  overflow: hidden;
+}
+html._overflow body {
+  overflow: hidden;
+}
+
+a {
+  color: var(--c-white);
+}
+
+.btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  outline: 0;
+  border: 0;
+  padding: 21px 45px;
+  transition: var(--transition);
+  background: var(--c-primary);
+}
+.btn:hover {
+  background: #a2c901;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+* ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #d1d1d1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 0 60px;
+  padding-top: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+.header__ul {
+  display: flex;
+  gap: 55px;
+}
+.header__nav-btn {
+  background: none;
+  color: white;
+  align-items: baseline;
+  display: flex;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1480px;
+  padding: 150px 0 0 140px;
+  margin-inline: auto;
+}
+.welcome-section__text {
+  color: var(--c-primary);
+  font-family: var(--ff-second);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.welcome-section__title {
+  font-family: var(--ff);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 97px;
+  text-align: left;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+.welcome-section__title span {
+  color: var(--c-primary);
+}
+.welcome-section__desc {
+  max-width: 489px;
+  color: var(--c-desc);
+  font-family: var(--ff-second);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.welcome-section__btn {
+  color: var(--c-dark1);
+  font-family: var(--ff);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  gap: 21px;
+}/*# sourceMappingURL=style.css.map */

@@ -215,7 +215,7 @@ a:hover {
   align-items: center;
   max-width: 1320px;
   padding: 0 60px;
-  padding-top: 10px;
+  padding-top: 44px;
   width: 100%;
   margin-inline: auto;
 }
@@ -232,7 +232,7 @@ a:hover {
 }
 .header__nav-btn {
   background: none;
-  color: white;
+  color: var(--c-white);
   align-items: baseline;
   display: flex;
   gap: 13px;

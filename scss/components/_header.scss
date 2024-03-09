@@ -5,7 +5,7 @@
     align-items: center;
     max-width: calc(1200px + 120px);
     padding: 0 60px;
-    padding-top: 10px;
+    padding-top: 44px;
     width: 100%;
     margin-inline: auto;
   }
@@ -27,7 +27,7 @@
 
   &__nav-btn{
     background: none;
-    color: white;
+    color: var(--c-white);
     align-items: baseline;
     display: flex;
     gap: 13px;

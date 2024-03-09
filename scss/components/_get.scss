@@ -4,8 +4,25 @@
     }
 
     &__title {
+        color: rgb(21, 21, 21);
+        font-family: var(--ff);
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 123%;
+        letter-spacing: -0.84px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     &__btn {
+        color:var(--c-primary);
+        font-family: var(--ff);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        background: rgb(21, 21, 21);
+        padding: 21px 50px;
     }
 }

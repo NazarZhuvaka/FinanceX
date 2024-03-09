@@ -389,4 +389,26 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding-left: 144px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 0 60px;
+  padding-top: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.time-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 0 60px;
+  padding-top: 10px;
+  width: 100%;
+  margin-inline: auto;
 }/*# sourceMappingURL=style.css.map */

@@ -1,56 +1,89 @@
 .benefits {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1320px;
-    padding: 0 60px;
-    padding-top: 150px;
-    width: 100%;
-    margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 0 60px;
+  padding-top: 150px;
+  width: 100%;
+  margin-inline: auto;
 }
 .benefits-section {
+  &__info {
+  }
 
-		&__info {
-		}
+  &__text {
+    color: var(--c-primary);
+    font-family: var(--ff-second);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
 
-		&__text {
-            color:var(--c-primary);
-            font-family: var(--ff-second);
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 24px;
-            text-align: left;
-		}
+  &__title {
+    font-family: var(--ff);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    max-width: 431px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
-		&__title {
-            font-family: var(--ff);
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 100%;
-            text-align: left;
-            max-width: 431px;
-            margin-top: 20px;
-            margin-bottom: 30px;
+    span {
+      color: var(--c-primary);
+    }
+  }
 
-            span{
-                color:var(--c-primary) ;
-            }
-		}
+  &__desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--ff-second);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    max-width: 492px;
+    margin-bottom: 81px;
+  }
 
-		&__desc {
-            color: rgba(255, 255, 255, 0.7);
-            font-family: var(--ff-second);
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 150%;
-            text-align: left;
-            max-width: 492px;
-            margin-bottom: 81px;
-		}
+  
+    &__people {
+        display: flex;
+    gap: 89px;
 
+    }
 
-		&__img {
-		}
-}
-.btn {
-}
+    &__people-container {
+    }
+
+    &__people-titlle {
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: var(--ff);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: left;
+
+        span{
+            color: var(--c-primary);
+        }
+    }
+
+    &__people-active {
+        margin: 0;
+        color: var(--c-primary);
+        font-family: var(--ff-second);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+    }
+  }
+
+  .time-section {
+    &__people-titlle {
+    }
+  }
+

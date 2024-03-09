@@ -1,6 +1,14 @@
 .get-section {
+    display: flex;
+    align-items: center;
+    max-width: 1320px;
+    padding: 150px 60px 150px;
+    width: 100%;
+    margin-inline: auto;
 
     &__container {
+        background: var(--c-primary);
+        padding: 50px 0 50px;
     }
 
     &__title {
@@ -24,5 +32,14 @@
         text-align: left;
         background: rgb(21, 21, 21);
         padding: 21px 50px;
+        margin-inline: auto;
+        display: flex;
+        transition: var(--transition);
+
+         &:hover{
+            background: none;
+            color:  rgb(21, 21, 21);
+            cursor: pointer;
+         }
     }
 }

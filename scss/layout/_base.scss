@@ -53,6 +53,14 @@ a {
 
   background: var(--c-primary);
 
+  color:var(--c-dark1);
+  font-family: var(--ff);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  gap: 21px;
+
   &:hover {
     background: darken($c-primary, 10%);
   }

@@ -1,0 +1,101 @@
+.services {
+
+    &__info {
+    }
+
+    &__info-text {
+        color: var(--c-primary);
+        font-family: var(--ff-second);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+
+    &__info-title {
+        font-family: var(-ff);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 65px;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        span{
+            color: var(--c-primary);
+        }
+    }
+
+    &__btn {
+    }
+
+    &__checking {
+        padding: 61px 40px 60px 40px;
+        text-align: end;
+
+        transition: var(--transition);
+
+        &:hover{
+            background: rgb(46, 46, 46);
+        }
+    }
+
+    &__checking-line {
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        display: flex;
+        width: 40px;
+    }
+
+    &__checking-text {
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-family: var(--ff);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+        margin-top: 35px;
+        margin-bottom: 24px;
+    }
+
+    &__checking-desc {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: var(--ff);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: left;
+        margin-bottom: 69px;
+        width: 272px;
+    }
+
+    &__checking-btn {
+        background: rgb(255, 255, 255);
+        padding: 16px;
+        transition: var(--transition);
+        cursor: pointer;
+
+        &:hover{
+            background: var(--c-primary);
+        }
+    }
+}
+.services-container {
+    max-width: 1320px;
+    padding: 0 60px;
+    width: 100%;
+    margin-inline: auto;
+    padding-top: 150px;
+}
+.services-top {
+    display: flex;
+    justify-content: space-between;
+}
+.services-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 144px;
+}

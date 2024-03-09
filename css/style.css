@@ -186,6 +186,13 @@ a:hover {
   padding: 21px 45px;
   transition: var(--transition);
   background: var(--c-primary);
+  color: var(--c-dark1);
+  font-family: var(--ff);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  gap: 21px;
 }
 .btn:hover {
   background: #a2c901;
@@ -296,4 +303,90 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.services__info-text {
+  color: var(--c-primary);
+  font-family: var(--ff-second);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+}
+.services__info-title {
+  font-family: var(-ff);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.services__info-title span {
+  color: var(--c-primary);
+}
+.services__checking {
+  padding: 61px 40px 60px 40px;
+  text-align: end;
+  transition: var(--transition);
+}
+.services__checking:hover {
+  background: rgb(46, 46, 46);
+}
+.services__checking-line {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  width: 40px;
+}
+.services__checking-text {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: var(--ff);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 24px;
+}
+.services__checking-desc {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 69px;
+  width: 272px;
+}
+.services__checking-btn {
+  background: rgb(255, 255, 255);
+  padding: 16px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.services__checking-btn:hover {
+  background: var(--c-primary);
+}
+
+.services-container {
+  max-width: 1320px;
+  padding: 0 60px;
+  width: 100%;
+  margin-inline: auto;
+  padding-top: 150px;
+}
+
+.services-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 144px;
 }/*# sourceMappingURL=style.css.map */

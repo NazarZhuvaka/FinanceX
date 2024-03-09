@@ -371,7 +371,6 @@ a:hover {
 .services__checking-btn:hover {
   background: var(--c-primary);
 }
-
 .services-container {
   max-width: 1320px;
   padding: 0 60px;
@@ -379,12 +378,10 @@ a:hover {
   margin-inline: auto;
   padding-top: 150px;
 }
-
 .services-top {
   display: flex;
   justify-content: space-between;
 }
-
 .services-bottom {
   display: flex;
   justify-content: space-between;

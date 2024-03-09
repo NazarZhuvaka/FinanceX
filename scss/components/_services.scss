@@ -75,20 +75,21 @@
       background: var(--c-primary);
     }
   }
-}
-.services-container {
-  max-width: 1320px;
-  padding: 0 60px;
-  width: 100%;
-  margin-inline: auto;
-  padding-top: 150px;
-}
-.services-top {
-  display: flex;
-  justify-content: space-between;
-}
-.services-bottom {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 144px;
+  &-container {
+    max-width: 1320px;
+    padding: 0 60px;
+    width: 100%;
+    margin-inline: auto;
+    padding-top: 150px;
+  }
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 144px;
+  }
 }

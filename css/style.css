@@ -608,6 +608,28 @@ a:hover {
   padding: 120px 20px 120px;
   margin-inline: auto;
 }
+.swiper-section__title {
+  color: rgb(21, 21, 21);
+  font-family: var(--ff-second);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+}
+.swiper-section__desc {
+  color: rgb(21, 21, 21);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 700px;
+  margin: 0;
+  margin-top: 21px;
+  margin-bottom: 53px;
+}
 .swiper-section__swiper-slide {
   background: var(--c-dark1);
 }

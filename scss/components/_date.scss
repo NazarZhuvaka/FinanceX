@@ -1,6 +1,13 @@
 .date {
 }
 .date-line {
+    background: rgba(255, 255, 255, 0.7);
+    height: 2px;
+    width: 100%;
+    display: block;
 }
 .date-desc {
+    display: flex;
+    justify-content: center;
+    margin: 42px 42px;
 }

@@ -8,6 +8,12 @@
 
     background-image: url();
 
+    position: relative;
+
+    &__bg{
+        position: absolute;
+    }
+
     &__text {
         color:var(--c-primary);
         font-family: var(--ff-second);

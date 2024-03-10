@@ -247,6 +247,10 @@ a:hover {
   padding: 147px 0 130px 120px;
   margin-inline: auto;
   background-image: url();
+  position: relative;
+}
+.welcome-section__bg {
+  position: absolute;
 }
 .welcome-section__text {
   color: var(--c-primary);
@@ -679,6 +683,10 @@ a:hover {
   padding: 0 60px;
   width: 100%;
   margin-inline: auto;
+  position: relative;
+}
+.footer-bg {
+  position: absolute;
 }
 .date-line {
   background: rgba(255, 255, 255, 0.7);

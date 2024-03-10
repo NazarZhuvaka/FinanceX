@@ -1,0 +1,58 @@
+.swiper-section{
+    background: var(--c-primary);
+    padding: 120px 120px;
+    // background-image: url(../../img/swiper-bg.png);
+    position: relative;
+    max-width: 1440px;
+    padding:  120px 20px 120px;
+    margin-inline: auto;
+
+    &__swiper-slide{
+        background: var(--c-dark1);
+    }
+
+    &__bg{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+
+.slide {
+
+    &__desc {
+        color: rgb(255, 255, 255);
+        font-family: var(--ff-second);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        max-width: 263px;
+        margin-bottom: 26px;
+        margin: 0;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__info-name {
+        color: rgb(255, 255, 255);
+        font-family: var(--ff);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: left;
+    }
+
+    &__info-job {
+        color: rgba(255, 255, 255, 0.7);
+        font-family: var(--ff-second);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+    }
+}

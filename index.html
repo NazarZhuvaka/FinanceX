@@ -21,6 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>FinanceX</title>
   </head>
@@ -268,7 +272,7 @@
         </p>
         <button class="blocks__btn">
           Learn more
-          <img  src="./img/light-arrow.svg" alt="light-arrow" />
+          <img src="./img/light-arrow.svg" alt="light-arrow" />
         </button>
       </div>
       <div class="blocks__info">
@@ -297,21 +301,137 @@
     <!---------- blocks end ------------->
 
     <!---------- swiper start ------------->
+    <section class="swiper-section">
+      <img class="swiper-section__bg" src="./img/swiper-bg.png" alt="" />
+      <p class="swiper-section__title">Our Services</p>
+      <div class="swiper-section__pag">
+        <p class="swiper-section__desc">Global businesses love FinanceX</p>
+        <button class="swiper-button-next">
+          <img src="./img/arrow-swiper.svg" alt="" />
+        </button>
+      </div>
+      <swiper-container
+        slides-per-view="3"
+        na
+        space-between="30"
+        loop="true"
+        centered="true"
+        grab-cursor="true"
+      >
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-section__swiper-slide">
+          <p class="slide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel
+          </p>
+          <div class="slide__info">
+            <img src="./img/mahesh.png" alt="mahesh" />
+            <div class="slide__info-work">
+              <p class="slide__info-name">Mahesh</p>
+              <p class="slide__info-job">CEO</p>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
     <!---------- swiper end ------------->
 
     <!---------- Get start ------------->
     <section class="get-section">
       <div class="get-section__container">
-        <h3 class="get-section__title">Let’s grow your business,
-          together.
-        </h3>
-        <button class="get-section__btn">
-          Get Started
-        </button>
+        <h3 class="get-section__title">Let’s grow your business, together.</h3>
+        <button class="get-section__btn">Get Started</button>
       </div>
     </section>
     <!---------- Get end ------------->
 
     <script src="script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+    >
+      //       const swiper = new Swiper('.swiper', {
+      //   navigation: {
+      //     nextEl: '.swiper-button-next',
+      //     prevEl: '.swiper-button-prev',
+      //   },
+      // });
+    </script>
   </body>
 </html>

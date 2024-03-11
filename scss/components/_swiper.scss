@@ -102,3 +102,20 @@
   background: none;
   z-index: 10;
 }
+
+.swiper {
+  width: 600px;
+  height: 360px;
+}
+
+.swiper-button-prev{
+  display: none;
+}
+
+.swiper-button-next{
+  display: none;
+}
+
+.swiper-scrollbar{
+  display: none;
+}

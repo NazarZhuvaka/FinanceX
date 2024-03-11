@@ -22,9 +22,9 @@
       rel="stylesheet"
     />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="css/style.css" />
     <title>FinanceX</title>
   </head>
@@ -311,22 +311,26 @@
       <p class="swiper-section__title">Our Services</p>
       <div class="swiper-section__pag">
         <p class="swiper-section__desc">Global businesses love FinanceX</p>
-        <button class="swiper-custom-button-prev" title="Previous">
+        <!-- <button class="swiper-custom-button-prev" title="Previous">
           <img src="./img/arrow-swiper.svg" alt="" />
         </button>
         <button class="swiper-custom-button-next" title="Previous">
           <img src="./img/arrow-swiper.svg" alt="" />
+        </button> -->
+        <button  class="swiper-custom-button-prev" title="Previous" id="custom-prev-button">
+          <img src="./img/arrow-swiper.svg" alt="" />
+        </button>
+        <button class="swiper-custom-button-next" title="Next" id="custom-next-button">
+          <img src="./img/arrow-swiper.svg" alt="" />
         </button>
       </div>
-      
-      <swiper-container
-      slides-per-view="3.5"
+      <!-- slides-per-view="3.5"
       space-between="30"
       
       loop
       grab-cursor="true"
-      navigation
-      >
+      navigation -->
+      <!-- <swiper-container>
         <swiper-slide class="swiper-section__swiper-slide">
           
           
@@ -405,7 +409,100 @@
             </div>
           </div>
         </swiper-slide>
-      </swiper-container>
+      </swiper-container> -->
+
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide ">
+      <p class="slide__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor rhoncus dolor purus non enim praesent elementum facilisis
+        leo, vel
+      </p>
+      <div class="slide__info">
+        <img src="./img/mahesh.png" alt="mahesh" />
+        <div class="slide__info-work">
+          <p class="slide__info-name">Mahesh</p>
+          <p class="slide__info-job">CEO</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <p class="slide__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor rhoncus dolor purus non enim praesent elementum facilisis
+        leo, vel
+      </p>
+      <div class="slide__info">
+        <img src="./img/ranveer.png" alt="ranveer" />
+        <div class="slide__info-work">
+          <p class="slide__info-name">Ranveer</p>
+          <p class="slide__info-job">Webflow Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <p class="slide__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor rhoncus dolor purus non enim praesent elementum facilisis
+        leo, vel
+      </p>
+      <div class="slide__info">
+        <img src="./img/tony.png" alt="tony" />
+        <div class="slide__info-work">
+          <p class="slide__info-name">Tony Stark</p>
+          <p class="slide__info-job">CEO</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <p class="slide__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor rhoncus dolor purus non enim praesent elementum facilisis
+        leo, vel
+      </p>
+      <div class="slide__info">
+        <img src="./img/ranveer2.png" alt="ranveer2" />
+        <div class="slide__info-work">
+          <p class="slide__info-name">Ranveer</p>
+          <p class="slide__info-job">Webflow Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <p class="slide__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor rhoncus dolor purus non enim praesent elementum facilisis
+        leo, vel
+      </p>
+      <div class="slide__info">
+        <img src="./img/vineet.png" alt="vineet" />
+        <div class="slide__info-work">
+          <p class="slide__info-name">Vineet</p>
+          <p class="slide__info-job">Web Designer</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
     </section>
     <!---------- swiper end ------------->
 
@@ -470,9 +567,9 @@
       </p>
     </section>
 
-    <script src="script.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>

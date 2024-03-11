@@ -664,7 +664,6 @@ a:hover {
 
 .swiper-section {
   background: var(--c-primary);
-  padding: 120px 120px;
   position: relative;
   max-width: 1440px;
   padding: 120px 20px 120px;
@@ -694,8 +693,6 @@ a:hover {
 }
 .swiper-section__swiper-slide {
   background: var(--c-dark1);
-  max-width: 373.667px;
-  margin-right: 30px;
   padding: 50px;
 }
 .swiper-section__bg {

@@ -17,6 +17,16 @@
     margin: 0;
   }
 
+  &__pag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 0 60px;
+  }
+
 
   &__desc {
     color: rgb(21, 21, 21);
@@ -32,6 +42,11 @@
   }
 
   &__swiper-slide {
+    background: var(--c-dark1);
+    padding: 50px;
+  }
+
+  .swiper-slide{
     background: var(--c-dark1);
     padding: 50px;
   }
@@ -104,7 +119,7 @@
 }
 
 .swiper {
-  width: 600px;
+  max-width: 100%;
   height: 360px;
 }
 
@@ -118,4 +133,9 @@
 
 .swiper-scrollbar{
   display: none;
+}
+
+.swiper-btn__container{
+  display: flex;
+  gap: 20px;
 }

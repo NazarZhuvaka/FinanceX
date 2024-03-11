@@ -699,6 +699,7 @@ a:hover {
   position: absolute;
   top: 0%;
   left: 0%;
+  z-index: -1;
 }
 
 .slide__desc {
@@ -735,6 +736,25 @@ a:hover {
   line-height: 14px;
   text-align: left;
   margin: 0;
+}
+
+.swiper-custom-button-prev {
+  width: 56px;
+  height: 56px;
+  background: none;
+  z-index: 10;
+  padding: 0;
+  cursor: pointer;
+}
+
+.swiper-custom-button-next {
+  padding: 0;
+  transform: rotate(180deg);
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background: none;
+  z-index: 10;
 }
 
 .footer {

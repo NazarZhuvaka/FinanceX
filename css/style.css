@@ -251,6 +251,7 @@ a:hover {
 }
 .welcome-section__bg {
   position: absolute;
+  z-index: -1;
 }
 .welcome-section__text {
   color: var(--c-primary);
@@ -729,6 +730,7 @@ a:hover {
   line-height: 26px;
   letter-spacing: -2%;
   text-align: left;
+  cursor: pointer;
 }
 
 .footer-links {
@@ -750,7 +752,7 @@ a:hover {
   line-height: 28px;
   letter-spacing: -2%;
   text-align: left;
-  margin-bottom: 18px;
+  margin-bottom: 2px;
 }
 
 .footer-desc {
@@ -759,8 +761,9 @@ a:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+  margin: 0;
   text-align: left;
-  margin-bottom: 39px;
+  margin-bottom: 23px;
   max-width: 250px;
 }
 
@@ -775,6 +778,9 @@ a:hover {
   margin-bottom: 6px;
 }
 
+.footer-sub {
+  margin-left: 40px;
+}
 .footer-sub__title {
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--ff);
@@ -810,4 +816,11 @@ a:hover {
   display: flex;
   justify-content: center;
   margin: 42px 42px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -2%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

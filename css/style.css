@@ -687,7 +687,59 @@ a:hover {
 }
 .footer-bg {
   position: absolute;
+  z-index: -1;
 }
+.footer__a {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff-second);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+.footer-links__icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-logo {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: var(--ff);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -2%;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.footer-desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff-second);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 39px;
+  max-width: 250px;
+}
+
+.footer-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
 .date-line {
   background: rgba(255, 255, 255, 0.7);
   height: 2px;

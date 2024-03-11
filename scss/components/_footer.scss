@@ -7,6 +7,7 @@
   width: 100%;
   margin-inline: auto;
   position: relative;
+  padding-bottom: 59px;
 
   &-bg {
     position: absolute;
@@ -24,12 +25,38 @@
 
   &__form {
     margin-bottom: 21px;
+    position: relative;
   }
 
   &__input {
+    max-width: 389px;
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 13px 164px 13px 18px;
+    border: none;
+
+    color: rgba(0, 0, 0, 0.7);
+    font-family: var(--ff-second);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -2%;
+    text-align: left;
   }
 
   &__btn {
+    position: absolute;
+    right: 0;
+    background: var(--c-primary);
+    padding: 13px 34px 12px 43px;
+    color: rgb(21, 21, 21);
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -2%;
+    text-align: left;
   }
 }
 .footer-links {
@@ -96,5 +123,7 @@
     letter-spacing: -2%;
     text-align: left;
     opacity: 0.5;
+    margin: 0;
+    max-width: 326px;
   }
 }

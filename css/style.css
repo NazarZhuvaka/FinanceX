@@ -703,6 +703,7 @@ a:hover {
 .footer-links {
   display: flex;
   gap: 16px;
+  flex-direction: column;
 }
 .footer-links__icons {
   display: flex;

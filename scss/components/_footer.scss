@@ -35,6 +35,7 @@
 .footer-links {
   display: flex;
   gap: 16px;
+  flex-direction: column;
 
   &__icons {
     display: flex;

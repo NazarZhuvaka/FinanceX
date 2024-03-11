@@ -8,22 +8,12 @@ const swiper = new Swiper('.swiper', {
     grabCursor: 'true',
     centeredSlides: 'auto',
     
-  
-    // If we need pagination
-    // pagination: {
-    //   el: '.swiper-pagination',
-    // },
-  
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-custom-button-next',
       prevEl: '.swiper-custom-button-prev',
     },
   
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
   });
   
 function navToggle() {

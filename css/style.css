@@ -697,6 +697,9 @@ a:hover {
   line-height: 24px;
   text-align: left;
 }
+.footer__form {
+  margin-bottom: 21px;
+}
 .footer-links {
   display: flex;
   gap: 16px;
@@ -738,6 +741,28 @@ a:hover {
   text-align: left;
   margin: 0;
   margin-bottom: 6px;
+}
+
+.footer-sub__title {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.footer-sub__desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--ff-second);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -2%;
+  text-align: left;
+  opacity: 0.5;
 }
 
 .date-line {

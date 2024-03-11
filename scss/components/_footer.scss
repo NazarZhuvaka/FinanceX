@@ -23,6 +23,7 @@
   }
 
   &__form {
+    margin-bottom: 21px;
   }
 
   &__input {
@@ -74,8 +75,25 @@
 }
 .footer-sub {
   &__title {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--ff);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 24px;
   }
 
   &__desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--ff-second);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -2%;
+    text-align: left;
+    opacity: 0.5;
   }
 }

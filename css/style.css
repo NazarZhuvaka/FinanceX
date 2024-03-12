@@ -425,7 +425,7 @@ a:hover {
 @media (max-width: 576px) {
   .welcome-section__desc {
     font-size: 14px;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
   }
 }
 .welcome-section__btn {
@@ -915,6 +915,7 @@ a:hover {
 @media (max-width: 576px) {
   .swiper-section__pag {
     flex-wrap: wrap;
+    padding: 0 30px;
   }
 }
 .swiper-section__desc {

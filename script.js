@@ -1,23 +1,3 @@
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     direction: 'horizontal',
-//     loop: true,
-//     slidesPerView: '3.6',
-//     speed: '500',
-//     spaceBetween: '30',
-//     grabCursor: 'true',
-//     centeredSlides: 'auto',
-    
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-custom-button-next',
-//       prevEl: '.swiper-custom-button-prev',
-//     },
-  
-//   });
-
-  
-  
 function navToggle() {
 	document.getElementById("headerUl").classList.toggle("_active");
 	document.getElementById("html").classList.toggle("_overflow");
@@ -60,13 +40,14 @@ const swiper = new Swiper('.swiper', initialSwiperConfig);
 function updateSwiperConfig() {
   const screenWidth = window.innerWidth;
 
-  // Перевірка розміру екрана і оновлення slidesPerView відповідно
+   if (screenWidth <=1920) {
+    swiper.params.slidesPerView = 3.6;
+  } 
   if (screenWidth <= 1350) {
     swiper.params.slidesPerView = 2;
-  } 
-  if (screenWidth <= 768) {
+  }  if (screenWidth <=768) {
     swiper.params.slidesPerView = 1;
-  }  
+  } 
   // else {
   //   swiper.params.slidesPerView = initialSwiperConfig.slidesPerView;
   // }

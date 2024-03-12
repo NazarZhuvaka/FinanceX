@@ -8,7 +8,10 @@
     padding-bottom: 150px;
     width: 100%;
     margin-inline: auto;
-    flex-wrap: wrap;
+    @include desktop-small {
+        flex-wrap: wrap;
+       }
+
 
     &__info {
         padding: 56px;

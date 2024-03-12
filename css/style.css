@@ -274,6 +274,11 @@ a:hover {
     left: 0;
   }
 }
+.header__burger-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -765,7 +770,11 @@ a:hover {
   padding-bottom: 150px;
   width: 100%;
   margin-inline: auto;
-  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .blocks {
+    flex-wrap: wrap;
+  }
 }
 .blocks__info {
   padding: 56px;

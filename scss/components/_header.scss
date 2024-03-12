@@ -15,6 +15,12 @@
 		}
 	}
 
+	&__burger-menu{
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+
   &-container{
     display: flex;
     justify-content: space-between;

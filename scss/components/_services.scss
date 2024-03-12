@@ -10,15 +10,15 @@
 
     @include mobile {
       font-size: 12px;
-  }
+    }
   }
 
-  &__btn{
+  &__btn {
     @include mobile {
       gap: 8px;
       font-size: 15px;
       padding: 9px 17px;
-  }
+    }
   }
 
   &__info-title {
@@ -41,9 +41,9 @@
     }
 
     @include mobile {
-        font-size: 34px;
-        margin-bottom: 36px;
-        line-height: 41px;
+      font-size: 34px;
+      margin-bottom: 36px;
+      line-height: 41px;
     }
   }
 
@@ -55,6 +55,10 @@
 
     &:hover {
       background: rgb(46, 46, 46);
+    }
+
+    @include mobile {
+      padding: 41px 20px 40px 20px;
     }
   }
 
@@ -75,6 +79,10 @@
     text-align: left;
     margin-top: 35px;
     margin-bottom: 24px;
+
+    @include mobile {
+      font-size: 22px;
+    }
   }
 
   &__checking-desc {
@@ -87,6 +95,11 @@
     text-align: left;
     margin-bottom: 69px;
     width: 272px;
+    @include mobile {
+      font-size: 14px;
+      max-width: 258px;
+      margin-bottom: 24px;
+    }
   }
 
   &__checking-btn {
@@ -97,6 +110,16 @@
 
     &:hover {
       background: var(--c-primary);
+    }
+
+    img{
+      @include mobile {
+        max-width: 70%;
+      }
+    }
+
+    @include mobile {
+      padding: 8px;
     }
   }
   &-container {
@@ -111,21 +134,20 @@
     display: flex;
     justify-content: space-between;
     @include desktop-small {
-			flex-wrap: wrap;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
-		}
+    }
   }
   &-bottom {
     display: flex;
     justify-content: space-between;
     padding-left: 144px;
     flex-wrap: wrap;
-    
 
     @include desktop-small {
-			padding-left: 0px;
+      padding-left: 0px;
       justify-content: center;
-		}
+    }
   }
 }

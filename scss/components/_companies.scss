@@ -5,6 +5,10 @@
     max-width: 1320px;
     padding: 0 60px;
     margin-inline: auto;
+
+    @include mobile {
+      padding: 10px 38px;
+     }
   }
 
   &__ul {
@@ -12,5 +16,10 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include mobile {
+      gap: 20px;
+    flex-direction: column;
+     }
   }
 }

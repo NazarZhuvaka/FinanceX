@@ -24,6 +24,10 @@
         &:hover{
             background: rgb(46, 46, 46);;
         }
+
+        @include mobile {
+           padding: 26px;
+          }
     }
 
     &__info-title {
@@ -36,6 +40,10 @@
         max-width: 257px;
         margin-top: 22px;
         margin-bottom: 22px;
+
+        @include mobile {
+            font-size: 22px;
+          }
     }
 
     &__info-desc {
@@ -47,6 +55,9 @@
         text-align: left;
         max-width: 277px;
         margin-bottom: 17px;
+        @include mobile {
+            font-size: 13px;
+          }
     }
 
     &__btn {
@@ -61,5 +72,9 @@
         gap: 10px;
         display: flex;
         cursor: pointer;
+
+        @include mobile {
+            font-size: 13px;
+          }
     }
 }

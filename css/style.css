@@ -453,11 +453,22 @@ a:hover {
   padding: 0 60px;
   margin-inline: auto;
 }
+@media (max-width: 576px) {
+  .companies-container {
+    padding: 10px 38px;
+  }
+}
 .companies__ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .companies__ul {
+    gap: 20px;
+    flex-direction: column;
+  }
 }
 
 .services__info-text {
@@ -515,6 +526,11 @@ a:hover {
 .services__checking:hover {
   background: rgb(46, 46, 46);
 }
+@media (max-width: 576px) {
+  .services__checking {
+    padding: 41px 20px 40px 20px;
+  }
+}
 .services__checking-line {
   box-sizing: border-box;
   border: 2px solid rgb(255, 255, 255);
@@ -532,6 +548,11 @@ a:hover {
   margin-top: 35px;
   margin-bottom: 24px;
 }
+@media (max-width: 576px) {
+  .services__checking-text {
+    font-size: 22px;
+  }
+}
 .services__checking-desc {
   margin: 0;
   color: rgba(255, 255, 255, 0.7);
@@ -543,6 +564,13 @@ a:hover {
   margin-bottom: 69px;
   width: 272px;
 }
+@media (max-width: 576px) {
+  .services__checking-desc {
+    font-size: 14px;
+    max-width: 258px;
+    margin-bottom: 24px;
+  }
+}
 .services__checking-btn {
   background: rgb(255, 255, 255);
   padding: 16px;
@@ -551,6 +579,16 @@ a:hover {
 }
 .services__checking-btn:hover {
   background: var(--c-primary);
+}
+@media (max-width: 576px) {
+  .services__checking-btn img {
+    max-width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .services__checking-btn {
+    padding: 8px;
+  }
 }
 .services-container {
   max-width: 1320px;
@@ -733,6 +771,11 @@ a:hover {
 .blocks__info:hover {
   background: rgb(46, 46, 46);
 }
+@media (max-width: 576px) {
+  .blocks__info {
+    padding: 26px;
+  }
+}
 .blocks__info-title {
   color: rgb(255, 255, 255);
   font-family: var(--ff);
@@ -744,6 +787,11 @@ a:hover {
   margin-top: 22px;
   margin-bottom: 22px;
 }
+@media (max-width: 576px) {
+  .blocks__info-title {
+    font-size: 22px;
+  }
+}
 .blocks__info-desc {
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--ff-second);
@@ -753,6 +801,11 @@ a:hover {
   text-align: left;
   max-width: 277px;
   margin-bottom: 17px;
+}
+@media (max-width: 576px) {
+  .blocks__info-desc {
+    font-size: 13px;
+  }
 }
 .blocks__btn {
   background: none;
@@ -766,6 +819,11 @@ a:hover {
   gap: 10px;
   display: flex;
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .blocks__btn {
+    font-size: 13px;
+  }
 }
 
 .get-section {

@@ -198,6 +198,54 @@ a:hover {
 .btn:hover {
   background: #a2c901;
 }
+@media (max-width: 576px) {
+  .btn {
+    gap: 8px;
+    font-size: 15px;
+    padding: 9px 17px;
+  }
+}
+
+.title {
+  font-family: var(--ff);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 97px;
+  text-align: left;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+.title span {
+  color: var(--c-primary);
+}
+@media (max-width: 1200px) {
+  .title {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 77px;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 34px;
+    margin-bottom: 13px;
+    line-height: 41px;
+  }
+}
+
+.desc {
+  color: var(--c-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 460px;
+  margin-bottom: 40px;
+}
+@media (max-width: 576px) {
+  .desc {
+    font-size: 14px;
+  }
+}
 
 *::-webkit-scrollbar {
   width: 10px;
@@ -421,6 +469,18 @@ a:hover {
   text-align: left;
   margin: 0;
 }
+@media (max-width: 576px) {
+  .services__info-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .services__btn {
+    gap: 8px;
+    font-size: 15px;
+    padding: 9px 17px;
+  }
+}
 .services__info-title {
   font-family: var(-ff);
   font-size: 48px;
@@ -432,6 +492,20 @@ a:hover {
 }
 .services__info-title span {
   color: var(--c-primary);
+}
+@media (max-width: 1200px) {
+  .services__info-title {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 77px;
+  }
+}
+@media (max-width: 576px) {
+  .services__info-title {
+    font-size: 34px;
+    margin-bottom: 36px;
+    line-height: 41px;
+  }
 }
 .services__checking {
   padding: 61px 40px 60px 40px;
@@ -720,6 +794,11 @@ a:hover {
 @media (max-width: 992px) {
   .get-section__title {
     font-size: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .get-section__title {
+    font-size: 27px;
   }
 }
 .get-section__btn {

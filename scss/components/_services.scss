@@ -7,6 +7,18 @@
     line-height: 24px;
     text-align: left;
     margin: 0;
+
+    @include mobile {
+      font-size: 12px;
+  }
+  }
+
+  &__btn{
+    @include mobile {
+      gap: 8px;
+      font-size: 15px;
+      padding: 9px 17px;
+  }
   }
 
   &__info-title {
@@ -20,6 +32,18 @@
 
     span {
       color: var(--c-primary);
+    }
+
+    @include desktop-small {
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 77px;
+    }
+
+    @include mobile {
+        font-size: 34px;
+        margin-bottom: 36px;
+        line-height: 41px;
     }
   }
 

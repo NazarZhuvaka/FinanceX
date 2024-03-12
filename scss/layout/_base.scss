@@ -18,13 +18,12 @@ a {
   transition: var(--transition);
   &:hover {
     color: var(--c-primary);
-
   }
 }
 
-.wrapper{
-	max-width: 1440px;
-    margin-inline: auto;
+.wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 // .container {
@@ -51,10 +50,8 @@ a {
   border: 0;
   padding: 21px 45px;
   transition: var(--transition);
-
   background: var(--c-primary);
-
-  color:var(--c-dark1);
+  color: var(--c-dark1);
   font-family: var(--ff);
   font-size: 18px;
   font-weight: 700;
@@ -65,32 +62,49 @@ a {
   &:hover {
     background: darken($c-primary, 10%);
   }
+
+  @include mobile {
+    gap: 8px;
+    font-size: 15px;
+    padding: 9px 17px;
 }
 
-// .title {
-// 	margin-top: 90px;
-// 	font-size: 44px;
-// 	color: var(--c-white);
-// 	font-weight: 700;
-// 	margin-bottom: 17px;
-// 	@include mobile {
-// 		font-size: 32px;
-// 		margin-top: 50px;
-// 	}
+}
 
-// 	span {
-// 		color: var(--c-primary);
-// 	}
-// }
+.title {
+  font-family: var(--ff);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 97px;
+  text-align: left;
+  max-width: 600px;
+  margin-bottom: 40px;
 
-// .desc {
-// 	color: var(--c-body);
-// 	font-size: 16px;
-// 	font-weight: 400;
-// 	line-height: 160%;
-// 	max-width: 460px;
-// 	margin-bottom: 40px;
-// 	@include mobile {
-// 		font-size: 14px;
-// 	}
-// }
+  span {
+    color: var(--c-primary);
+  }
+
+  @include desktop-small {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 77px;
+  }
+
+  @include mobile {
+    font-size: 34px;
+    margin-bottom: 13px;
+    line-height: 41px;
+  }
+}
+
+.desc {
+	color: var(--c-body);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 160%;
+	max-width: 460px;
+	margin-bottom: 40px;
+	@include mobile {
+		font-size: 14px;
+	}
+}

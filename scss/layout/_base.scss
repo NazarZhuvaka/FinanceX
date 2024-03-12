@@ -2,6 +2,7 @@ body {
   font-family: var(--ff);
   background: var(--c-dark1);
   color: var(--c-white);
+  overflow-x: hidden;
 }
 
 html._overflow {

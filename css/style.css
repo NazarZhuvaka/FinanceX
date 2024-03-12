@@ -776,6 +776,11 @@ a:hover {
   width: 100%;
   margin-inline: auto;
 }
+@media (max-width: 576px) {
+  .get-section {
+    padding: 50px 30px 50px;
+  }
+}
 .get-section__container {
   background: var(--c-primary);
   padding: 50px 0 50px;
@@ -803,15 +808,8 @@ a:hover {
 }
 .get-section__btn {
   color: var(--c-primary);
-  font-family: var(--ff);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: left;
   background: rgb(21, 21, 21);
-  padding: 21px 50px;
   margin-inline: auto;
-  display: flex;
   transition: var(--transition);
 }
 .get-section__btn:hover {
@@ -1013,6 +1011,11 @@ a:hover {
   letter-spacing: -2%;
   text-align: left;
 }
+@media (max-width: 576px) {
+  .footer__input {
+    padding: 13px 15px 13px 18px;
+  }
+}
 .footer__btn {
   position: absolute;
   right: 0;
@@ -1026,6 +1029,12 @@ a:hover {
   letter-spacing: -2%;
   text-align: left;
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .footer__btn {
+    position: relative;
+    margin-top: 10px;
+  }
 }
 
 .footer-links {

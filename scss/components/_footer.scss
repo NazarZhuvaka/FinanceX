@@ -49,6 +49,10 @@
     line-height: 26px;
     letter-spacing: -2%;
     text-align: left;
+
+    @include mobile {
+      padding: 13px 15px 13px 18px;
+    }
   }
 
   &__btn {
@@ -64,6 +68,11 @@
     letter-spacing: -2%;
     text-align: left;
     cursor: pointer;
+
+    @include mobile {
+      position: relative;
+      margin-top: 10px;
+    }
   }
 }
 .footer-links {

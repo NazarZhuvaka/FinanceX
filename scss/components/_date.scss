@@ -1,5 +1,4 @@
-.date {
-}
+
 .date-line {
     background: rgba(255, 255, 255, 0.7);
     height: 2px;
@@ -18,4 +17,8 @@
     line-height: 24px;
     letter-spacing: -2%;
     text-align: center;
+
+    @include mobile {
+        display: block;
+      }
 }

@@ -597,6 +597,11 @@ a:hover {
   margin-inline: auto;
   padding-top: 150px;
 }
+@media (max-width: 576px) {
+  .services-container {
+    padding-top: 50px;
+  }
+}
 .services-top {
   display: flex;
   justify-content: space-between;
@@ -673,6 +678,11 @@ a:hover {
 .benefits-section__people {
   display: flex;
   gap: 89px;
+}
+@media (max-width: 576px) {
+  .benefits-section__people {
+    gap: 10px;
+  }
 }
 .benefits-section__people-titlle {
   margin: 0;

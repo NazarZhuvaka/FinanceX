@@ -40,6 +40,12 @@
     line-height: 32px;
   }
 
+  &__a{
+	@include tablet {
+		color: black;
+	}
+  }
+
   &__ul {
     display: flex;
     gap: 55px;
@@ -87,6 +93,11 @@
     display: flex;
     gap: 13px;
     cursor: pointer;
+	@include mobile {
+		display: none;
+	}
+
+
   }
 }
 
@@ -99,3 +110,7 @@
 		display: inline-block;
 	}
 }
+
+
+
+

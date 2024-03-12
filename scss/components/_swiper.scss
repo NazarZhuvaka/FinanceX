@@ -55,11 +55,6 @@
     padding: 50px;
   }
 
-  .swiper-slide {
-    background: var(--c-dark1);
-    padding: 50px;
-  }
-
   &__bg {
     position: absolute;
     top: 0%;
@@ -114,6 +109,19 @@
   z-index: 10;
   padding: 0;
   cursor: pointer;
+  transition: var(--transition);
+}
+
+.swiper-custom-button__active {
+  fill: darken($c-primary, 20%);
+  transition: var(--transition);
+  &:hover {
+    fill: #151515;
+  }
+
+  &-stroke {
+    stroke: white;
+  }
 }
 
 .swiper-custom-button-next {
@@ -124,26 +132,22 @@
   cursor: pointer;
   background: none;
   z-index: 10;
+  transition: var(--transition);
 }
 
 .swiper {
   max-width: 100%;
   height: 360px;
+
+  &-btn__container {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  &-slide {
+    background: var(--c-dark1);
+    padding: 50px;
+  }
 }
 
-.swiper-button-prev {
-  display: none;
-}
-
-.swiper-button-next {
-  display: none;
-}
-
-.swiper-scrollbar {
-  display: none;
-}
-
-.swiper-btn__container {
-  display: flex;
-  gap: 20px;
-}

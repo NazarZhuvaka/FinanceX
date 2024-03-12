@@ -22,9 +22,9 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>FinanceX</title>
   </head>
@@ -52,20 +52,16 @@
                 >close</span
               >
             </ul>
-            <!-- <span class="header__backdrop" onclick="navToggle()"></span>
-            <span class="material-icons icon-menu" onclick="navToggle()"
-              >menu</span
-            > -->
           </nav>
           <div class="header__burger-menu">
             <span class="header__backdrop" onclick="navToggle()"></span>
             <span class="material-icons icon-menu" onclick="navToggle()"
               >menu</span
             >
-          <button class="header__nav-btn">
-            Sign Up
-            <img src="./img/light-arrow.svg" alt="light-arrow" />
-          </button>
+            <button class="header__nav-btn">
+              Sign Up
+              <img src="./img/light-arrow.svg" alt="light-arrow" />
+            </button>
           </div>
         </div>
       </header>
@@ -314,121 +310,167 @@
     <!---------- swiper start ------------->
     <section class="swiper-section">
       <img class="swiper-section__bg" src="./img/swiper-bg.png" alt="" />
-      
+
       <div class="swiper-section__pag">
         <div>
           <p class="swiper-section__title">Our Services</p>
-        <p class="swiper-section__desc">Global businesses love FinanceX</p>
+          <p class="swiper-section__desc">Global businesses love FinanceX</p>
         </div>
-        <div class="swiper-btn__container" >
-          <button  class="swiper-custom-button-prev" title="Previous" id="custom-prev-button">
-            <img src="./img/arrow-swiper.svg" alt="" />
+        <div class="swiper-btn__container">
+          <button
+            class="swiper-custom-button swiper-custom-button-prev"
+            title="Previous"
+            id="custom-prev-button"
+          >
+            <svg
+            class="swiper-custom-button__active"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.49999 28C1.5 13.3644 13.3645 1.5 28 1.5C42.6355 1.5 54.5 13.3645 54.5 28C54.5 42.6355 42.6355 54.5 28 54.5C13.3644 54.5 1.49999 42.6355 1.49999 28Z"
+                stroke="#151515"
+                stroke-width="3"
+              />
+              <path
+                class="swiper-custom-button__active-stroke"
+                d="M31 36L23 28L31 20"
+                stroke="#151515"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
           </button>
-          <button class="swiper-custom-button-next" title="Next" id="custom-next-button">
-            <img src="./img/arrow-swiper.svg" alt="" />
+          <button
+            class="swiper-custom-button swiper-custom-button-next"
+            title="Next"
+            id="custom-next-button"
+          >
+            <!-- sadddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+            <svg
+              class="swiper-custom-button__active"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.49999 28C1.5 13.3644 13.3645 1.5 28 1.5C42.6355 1.5 54.5 13.3645 54.5 28C54.5 42.6355 42.6355 54.5 28 54.5C13.3644 54.5 1.49999 42.6355 1.49999 28Z"
+                stroke="#151515"
+                stroke-width="3"
+              />
+              <path
+              class="swiper-custom-button__active-stroke"
+                d="M31 36L23 28L31 20"
+                stroke="#151515"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
           </button>
         </div>
       </div>
-      
-
       <!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide ">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/mahesh.png" alt="mahesh" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Mahesh</p>
-          <p class="slide__info-job">CEO</p>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/mahesh.png" alt="mahesh" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Mahesh</p>
+                <p class="slide__info-job">CEO</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/ranveer.png" alt="ranveer" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Ranveer</p>
+                <p class="slide__info-job">Webflow Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/tony.png" alt="tony" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Tony Stark</p>
+                <p class="slide__info-job">CEO</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/ranveer2.png" alt="ranveer2" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Ranveer</p>
+                <p class="slide__info-job">Webflow Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/vineet.png" alt="vineet" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Vineet</p>
+                <p class="slide__info-job">Web Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="slide__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel
+            </p>
+            <div class="slide__info">
+              <img src="./img/vineet.png" alt="vineet" />
+              <div class="slide__info-work">
+                <p class="slide__info-name">Vineet</p>
+                <p class="slide__info-job">Web Designer</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="swiper-slide">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/ranveer.png" alt="ranveer" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Ranveer</p>
-          <p class="slide__info-job">Webflow Developer</p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/tony.png" alt="tony" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Tony Stark</p>
-          <p class="slide__info-job">CEO</p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/ranveer2.png" alt="ranveer2" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Ranveer</p>
-          <p class="slide__info-job">Webflow Developer</p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/vineet.png" alt="vineet" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Vineet</p>
-          <p class="slide__info-job">Web Designer</p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <p class="slide__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis, lectus magna fringilla urna,
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis
-        leo, vel
-      </p>
-      <div class="slide__info">
-        <img src="./img/vineet.png" alt="vineet" />
-        <div class="slide__info-work">
-          <p class="slide__info-name">Vineet</p>
-          <p class="slide__info-job">Web Designer</p>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
     </section>
     <!---------- swiper end ------------->
 
@@ -492,7 +534,6 @@
         Reserved.
       </p>
     </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

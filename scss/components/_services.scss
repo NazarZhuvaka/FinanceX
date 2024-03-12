@@ -86,10 +86,19 @@
   &-top {
     display: flex;
     justify-content: space-between;
+    @include desktop-small {
+			flex-wrap: wrap;
+      justify-content: center;
+		}
   }
   &-bottom {
     display: flex;
     justify-content: space-between;
     padding-left: 144px;
+    flex-wrap: wrap;
+
+    @include desktop-small {
+			padding-left: 0px;
+		}
   }
 }

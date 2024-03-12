@@ -445,10 +445,22 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1200px) {
+  .services-top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .services-bottom {
   display: flex;
   justify-content: space-between;
   padding-left: 144px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .services-bottom {
+    padding-left: 0px;
+  }
 }
 
 .benefits {
@@ -571,6 +583,7 @@ a:hover {
   padding-bottom: 150px;
   width: 100%;
   margin-inline: auto;
+  flex-wrap: wrap;
 }
 .blocks__info {
   padding: 56px;

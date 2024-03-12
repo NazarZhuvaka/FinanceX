@@ -332,6 +332,11 @@ a:hover {
   margin: 0;
   margin-bottom: 10px;
 }
+@media (max-width: 576px) {
+  .welcome-section__text {
+    font-size: 12px;
+  }
+}
 .welcome-section__title {
   font-family: var(--ff);
   font-size: 72px;
@@ -353,7 +358,9 @@ a:hover {
 }
 @media (max-width: 576px) {
   .welcome-section__title {
-    font-size: 12px;
+    font-size: 34px;
+    margin-bottom: 13px;
+    line-height: 41px;
   }
 }
 .welcome-section__desc {
@@ -367,6 +374,12 @@ a:hover {
   margin: 0;
   margin-bottom: 50px;
 }
+@media (max-width: 576px) {
+  .welcome-section__desc {
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+}
 .welcome-section__btn {
   color: var(--c-dark1);
   font-family: var(--ff);
@@ -375,6 +388,13 @@ a:hover {
   line-height: 24px;
   text-align: left;
   gap: 21px;
+}
+@media (max-width: 576px) {
+  .welcome-section__btn {
+    gap: 8px;
+    font-size: 15px;
+    padding: 9px 17px;
+  }
 }
 
 .companies {

@@ -31,6 +31,9 @@
     text-align: left;
     margin: 0;
     margin-bottom: 10px;
+    @include mobile {
+        font-size: 12px;
+    }
   }
 
   &__title {
@@ -53,7 +56,9 @@
     }
 
     @include mobile {
-      font-size: 12px;
+        font-size: 34px;
+        margin-bottom: 13px;
+        line-height: 41px;
     }
   }
 
@@ -67,6 +72,11 @@
     text-align: left;
     margin: 0;
     margin-bottom: 50px;
+
+    @include mobile {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
   }
 
   &__btn {
@@ -77,5 +87,11 @@
     line-height: 24px;
     text-align: left;
     gap: 21px;
+
+    @include mobile {
+        gap: 8px;
+        font-size: 15px;
+        padding: 9px 17px;
+    }
   }
 }

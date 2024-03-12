@@ -21,6 +21,11 @@
         text-align: center;
         margin: 0;
         margin-bottom: 20px;
+
+        @include tablet {
+            font-size: 60px;
+
+          }
     }
 
     &__btn {

@@ -313,6 +313,11 @@ a:hover {
     gap: 45px;
   }
 }
+@media (max-width: 576px) {
+  .welcome-section {
+    padding: 50px 0 60px 60px;
+  }
+}
 .welcome-section__bg {
   position: absolute;
   z-index: -1;
@@ -344,6 +349,11 @@ a:hover {
     font-size: 56px;
     font-weight: 900;
     line-height: 77px;
+  }
+}
+@media (max-width: 576px) {
+  .welcome-section__title {
+    font-size: 12px;
   }
 }
 .welcome-section__desc {
@@ -687,6 +697,11 @@ a:hover {
   margin: 0;
   margin-bottom: 20px;
 }
+@media (max-width: 992px) {
+  .get-section__title {
+    font-size: 60px;
+  }
+}
 .get-section__btn {
   color: var(--c-primary);
   font-family: var(--ff);
@@ -846,6 +861,12 @@ a:hover {
   position: relative;
   padding-bottom: 59px;
 }
+@media (max-width: 992px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
 .footer-bg {
   position: absolute;
   z-index: -1;
@@ -939,6 +960,11 @@ a:hover {
 
 .footer-sub {
   margin-left: 40px;
+}
+@media (max-width: 992px) {
+  .footer-sub {
+    margin-left: 0;
+  }
 }
 .footer-sub__title {
   color: rgba(255, 255, 255, 0.7);

@@ -9,6 +9,12 @@
   position: relative;
   padding-bottom: 59px;
 
+  @include tablet {
+    flex-wrap: wrap;
+    gap: 25px;
+
+  }
+
   &-bg {
     position: absolute;
     z-index: -1;
@@ -104,6 +110,10 @@
 }
 .footer-sub {
     margin-left: 40px;
+    @include tablet {
+      margin-left: 0;
+  
+    }
   &__title {
     color: rgba(255, 255, 255, 0.7);
     font-family: var(--ff);

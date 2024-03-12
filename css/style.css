@@ -335,7 +335,9 @@ a:hover {
 }
 @media (max-width: 1200px) {
   .welcome-section__title {
-    font-size: 60px;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 77px;
   }
 }
 .welcome-section__desc {

@@ -40,7 +40,9 @@
         }
 
         @include desktop-small {
-			font-size: 60px;
+			font-size: 56px;
+    font-weight: 900;
+    line-height: 77px;
 		}
     }
 

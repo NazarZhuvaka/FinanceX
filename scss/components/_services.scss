@@ -89,6 +89,7 @@
     @include desktop-small {
 			flex-wrap: wrap;
       justify-content: center;
+      gap: 15px;
 		}
   }
   &-bottom {

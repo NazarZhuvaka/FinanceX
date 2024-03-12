@@ -38,6 +38,10 @@
         span {
             color:var(--c-primary);
         }
+
+        @include desktop-small {
+			font-size: 60px;
+		}
     }
 
     &__desc {
